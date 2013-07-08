@@ -14,10 +14,19 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400' rel='stylesheet' type='text/css'>
 
-  <title></title>
+  <title>Flizzard Tweeter</title>
 </head>
 <body>
+  <header>
+    <span class="flizzard_brand"><a href="http://localhost:9393/">Flizzard Nation</a></span>
+    <span class="flizzard_tweets"><a href="http://localhost:9393/flizzardnation">Stay on Top of Fridays</a>
+    </span>
+  </header>
+  <div class="header_low_border"></div>
+  <div class="container">
   <%= yield %>
+  </div
 </body>
 </html>

@@ -1,9 +1,44 @@
+body{
+  font-family: 'Helvetica';
+}
+
 .container {
   margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  padding: 1em 1em 1em 1em;
+  width: 75%;
+  -webkit-box-shadow: inset 3px -3px 18px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 3px -3px 18px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 3px -3px 18px 1px rgba(0,0,0,0.75);
 }
 th {
   text-align: left;
+}
+
+.flizzard_brand{
+  font-size: 1.4em;
+}
+
+header{
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  margin: .3em auto;
+  width: 75%;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+.header_low_border{
+  border-bottom: #227AAB .4em solid;
+}
+.flizzard_tweets{
+  margin-top: 0.3em;
+  display: inline-block;
+  float: right;
+}
+
+h1{
+  border-bottom: #24A5F5 .07em solid;
 }
