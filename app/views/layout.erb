@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
+  <!--
     normalize.css removes cross-browser differences in defaults, e.g.,
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
@@ -20,13 +20,14 @@
 </head>
 <body>
   <header>
-    <span class="flizzard_brand"><a href="http://localhost:9393/">Flizzard Nation</a></span>
+    <span class="flizzard_brand"><a href="http://localhost:9393/"><img src="http://localhost:9393/sprocket.png">Flizzard Nation</a></span>
     <span class="flizzard_tweets"><a href="http://localhost:9393/flizzardnation">Stay on Top of Fridays</a>
     </span>
   </header>
   <div class="header_low_border"></div>
   <div class="container">
   <%= yield %>
-  </div
+  </div>
+  <img src="http://localhost:9393/skyline.png" class="footer_image">
 </body>
 </html>

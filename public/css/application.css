@@ -6,12 +6,18 @@ body{
   margin: 20px auto;
   padding: 1em 1em 1em 1em;
   width: 75%;
-  -webkit-box-shadow: inset 3px -3px 18px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 3px -3px 18px 1px rgba(0,0,0,0.75);
-  box-shadow: inset 3px -3px 18px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow:   3px -3px 18px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow:      3px -3px 18px 1px rgba(0,0,0,0.75);
+  box-shadow:           3px -3px 18px 1px rgba(0,0,0,0.75);
 }
 th {
   text-align: left;
+}
+
+header img{
+  height: 1em;
+  margin-bottom: -.2em;
+  padding: 0;
 }
 
 .flizzard_brand{
@@ -30,6 +36,19 @@ header a{
   color: black;
 }
 
+.entered_username{
+  margin-left: 3%;
+  padding: 9px;
+  border: solid 1px #E5E5E5;
+  outline: 0;
+  font: normal 1.1em/100% Verdana, Tahoma, sans-serif;
+}
+.footer_image{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width: 100%;
+}
 .header_low_border{
   border-bottom: #227AAB .4em solid;
 }
@@ -40,5 +59,12 @@ header a{
 }
 
 h1{
+  text-align: center;
+  font-weight: normal;
   border-bottom: #24A5F5 .07em solid;
+}
+
+h3{
+  color: #24A5F5;
+  margin-bottom: 10px;
 }
