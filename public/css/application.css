@@ -14,6 +14,11 @@ th {
   text-align: left;
 }
 
+.each_tweet{
+  line-height: 1.3em;
+  font-size: .9em;
+}
+
 header img{
   height: 1em;
   margin-bottom: -.2em;

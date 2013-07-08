@@ -16,7 +16,7 @@ gem 'activerecord'
 gem 'rake'
 
 gem 'shotgun'
-
+gem 'time_difference'
 gem 'twitter'
 group :test do
   gem 'wirble'
