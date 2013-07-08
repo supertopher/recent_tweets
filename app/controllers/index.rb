@@ -3,9 +3,10 @@ get '/' do
 end
 
 get '/:username' do |username|
-  @user = TwitterUser.find_by_username(username)
-  @user ||= TwitterUser.create(username: username)
-  @user.repopulate_tweets if @user.tweets_stale?
+  @user = TwitterUser.find_or_create_by_username(username)
+  if @user.tweets_stale?
+    @user.repopulate_tweets 
+  end
   @tweets = @user.tweets
-  erb :tweets
+  erb :tweets, layout: false
 end
